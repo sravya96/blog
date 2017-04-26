@@ -1,2 +1,9 @@
-<h1>Welcome#new</h1>
-<p>Find me in app/views/welcome/new.html.erb</p>
+<% provide(:title, "Home") %>
+
+<div class="row" id="welcome_body_row">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 "> <p class="circle" id="new"> <%= link_to "New Article", "#", id:"links" %> </p> </div>
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 "> <p class="circle" id="all"> <%= link_to "Show All articles", "#", id:"links" %></p> </div>
+</div>
+
+
+</div>
