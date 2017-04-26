@@ -1,0 +1,47 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+/* Styling welcome page*/
+header{
+
+	color : white;
+
+}
+
+#welcome_body_row{
+
+	margin-top : 10%;
+
+}
+.circle{
+	width : 150px;
+	height : 150px;
+	border-radius : 50%;	
+	font-weight : bold;
+	text-align : center;
+	padding: 50px;
+	align : center;
+	margin : auto;
+	
+}
+
+#new{
+	background-color : green;
+	border : 3px solid green;
+	box-shadow: 10px 10px 5px #004d00;
+
+}
+#all{
+	background-color : blue;
+	
+	border :3px solid blue;
+	box-shadow: 10px 10px 5px #270943;	
+
+}
+#links{
+
+	color : white;
+	text-decoration : none;
+
+}
