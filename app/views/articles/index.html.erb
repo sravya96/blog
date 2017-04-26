@@ -1,0 +1,12 @@
+<%= provide(:title, "All posts") %>
+
+<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 post">
+
+ <% @articles.each do |a| %>
+	<p id="title"> Title : <%= a.title %> </p>
+	<p id="text"> Text : <%= a.text %> </p>
+ <%end%>
+
+
+
+</div>
